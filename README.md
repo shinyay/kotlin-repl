@@ -15,6 +15,18 @@ Overview
 
 ## Usage
 
+### Run Kotlin REPL
+
+```
+$ kotlinc
+```
+
+### Load Kotlin Script
+
+```
+>>> :load <SCRIPT_FILE>
+```
+
 ## Installation
 
 ## Licence
