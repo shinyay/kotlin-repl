@@ -14,6 +14,22 @@ Overview
 ## Requirement
 
 ## Usage
+### Create Kotlin Project with Gradle
+
+```
+$ gradle init
+```
+
+```
+├── build.gradle  
+├── gradle
+│   └── wrapper
+│       ├── gradle-wrapper.jar  
+│       └── gradle-wrapper.properties  
+├── gradlew  
+├── gradlew.bat  
+└── settings.gradle  
+```
 
 ### Run Kotlin REPL
 
