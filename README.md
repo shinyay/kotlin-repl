@@ -32,7 +32,7 @@ $ gradle init
 ```
 
 ```
-$ mkdir src/main/kotlin
+$ mkdir -p src/main/kotlin
 ```
 
 ### Run Kotlin REPL
