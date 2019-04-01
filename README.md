@@ -31,6 +31,10 @@ $ gradle init
 └── settings.gradle  
 ```
 
+```
+$ mkdir src/main/kotlin
+```
+
 ### Run Kotlin REPL
 
 ```
