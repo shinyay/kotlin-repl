@@ -1,2 +1,4 @@
-val s = "Lorem ipsum dolor sit amet".also { it.toLowerCase() }
-println(s)
+fun doAlso() {
+    val s = "Lorem ipsum dolor sit amet".also { it.toLowerCase() }
+    println(s)
+}

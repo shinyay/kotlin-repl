@@ -1,2 +1,4 @@
-val hello:String = "Hello, Kotlin"
-println(hello)
+fun hello() {
+    val hello: String = "Hello, Kotlin"
+    println(hello)
+}
