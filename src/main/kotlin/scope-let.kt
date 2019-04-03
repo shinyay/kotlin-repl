@@ -11,3 +11,12 @@ fun doLet() {
     val s = "Lorem ipsum dolor sit amet".let { it.toLowerCase() }
     println(s)
 }
+
+fun doLetNullable(arg: String? = null) {
+
+    arg?.let{
+        println("toUpperCase")
+        println(it.toUpperCase())
+    }
+
+}
