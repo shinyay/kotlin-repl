@@ -10,5 +10,9 @@ fun <T> listGroupByWithIndex(list: List<T>) = list.withIndex()
 
 fun <T> listChunked(list: List<T>) = list.chunked(2)
 
-
 fun <T> listChunkedWithParameters(list: List<T>, size: Int) = list.chunked(size)
+
+fun <T> listWindowed(list: List<T>, size: Int = 2, step: Int = 2, partialWindows: Boolean = false) {
+    println("List.windowed(size, step, partialWindows)")
+    println(list.windowed(size, step, partialWindows))
+}
