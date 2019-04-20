@@ -7,3 +7,5 @@ fun <T> listGroupByWithIndex(list: List<T>) = list.withIndex()
             .map { entry -> entry.value
                     .map { it.value }
             }
+
+fun <T> listChunked(list: List<T>) = list.chunked(2)
