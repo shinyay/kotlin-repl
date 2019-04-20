@@ -9,3 +9,6 @@ fun <T> listGroupByWithIndex(list: List<T>) = list.withIndex()
             }
 
 fun <T> listChunked(list: List<T>) = list.chunked(2)
+
+
+fun <T> listChunkedWithParameters(list: List<T>, size: Int) = list.chunked(size)
